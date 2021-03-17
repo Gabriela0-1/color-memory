@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Dosis", sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+/* font-family: 'Audiowide', cursive;
+font-family: 'Dosis', sans-serif; */
+body {
+  background-color: black;
+}
+main {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+}
+header {
+  width: 100%;
+  text-align: center;
+  font-family: "Audiowide", cursive;
+  font-size: 40px;
+  color: #f2f2f2;
+  padding: 50px 0;
+}
+.nivel_actual {
+  filter: drop-shadow(0px 0px 2px #ffff00);
+  width: 100vw;
+  color: #f2f2f2;
+}
+h1 {
+  filter: drop-shadow(0px 0px 2px #ffff00);
+}
+
+section {
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(4, 100px);
+  gap: 10px;
+  justify-content: center;
+  align-content: center;
+}
+.BTN-play {
+  position: absolute;
+  z-index: 999;
+  top: 39vh;
+  background: none;
+  color: inherit;
+  border: none;
+  outline: none;
+}
+.BTN-play img {
+  width: 300px;
+  height: 300px;
+}
+.item {
+  background: #ffff7b;
+  border-radius: 150px;
+}
+footer {
+  width: 100%;
+  text-align: right;
+}
+footer a img {
+  width: 4rem;
+  margin: 0 10vw;
+}
+
+.hide {
+  display: none;
+}
+.light {
+  background: #ffff00;
+  filter: drop-shadow(0px 0px 2px #ffff00);
+}
+@media only screen and (max-width: 600px) {
+  header {
+    width: 100%;
+    text-align: center;
+    font-family: "Audiowide", cursive;
+    font-size: 25px;
+    color: #f2f2f2;
+    padding: 50px 0;
+  }
+  section {
+    display: grid;
+    grid-template-columns: repeat(4, 80px);
+    grid-template-rows: repeat(4, 80px);
+    gap: 10px;
+    justify-content: center;
+    align-content: center;
+  }
+}

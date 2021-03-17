@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <!--<link rel="preconnect" href="https://fonts.gstatic.com" />-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Audiowide&family=Dosis:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>COLOR MEMORY</title>
+  </head>
+  <body>
+    <main>
+      <button id="btnEmpezar" class="BTN-play" onclick="empezarJuego()">
+        <img src="css/img/StartBTN.svg" />
+      </button>
+      <header>
+        <h1>COLOR MEMORY</h1>
+        <p id="nivel" class="nivel_actual">Nivel: 1</p>
+      </header>
+
+      <section>
+        <div id="item-1" class="item" data-item="item1"></div>
+        <div id="item-2" class="item" data-item="item2"></div>
+        <div id="item-3" class="item" data-item="item3"></div>
+        <div id="item-4" class="item" data-item="item4"></div>
+        <div id="item-5" class="item" data-item="item5"></div>
+        <div id="item-6" class="item" data-item="item6"></div>
+        <div id="item-7" class="item" data-item="item7"></div>
+        <div id="item-8" class="item" data-item="item8"></div>
+        <div id="item-9" class="item" data-item="item9"></div>
+        <div id="item-10" class="item" data-item="item10"></div>
+        <div id="item-11" class="item" data-item="item11"></div>
+        <div id="item-12" class="item" data-item="item12"></div>
+        <div id="item-13" class="item" data-item="item13"></div>
+        <div id="item-14" class="item" data-item="item14"></div>
+        <div id="item-15" class="item" data-item="item15"></div>
+        <div id="item-16" class="item" data-item="item16"></div>
+        <div id="item-17" class="item" data-item="item17"></div>
+      </section>
+      <p class="explicacion" id="text-explain"></p>
+    </main>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"
+      integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./juego.js"></script>
+  </body>
+</html>
